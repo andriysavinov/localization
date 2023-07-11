@@ -1,6 +1,5 @@
 import './App.css';
-import React, { useEffect } from 'react';
-import { Suspense } from 'react';
+import React, { useEffect, Suspense } from 'react';
 import { useTranslation } from 'react-i18next';
 import Units from './components/Units';
 import Dates from './components/Dates';
@@ -66,7 +65,7 @@ function App() {
 	}
 
 	return (
-		<div>
+		<div className="main">
 			<select onChange={handleSelectChange} defaultValue={defaultLang}>
 				{Object.keys(locales).map((locale) => (
 					<option key={locale} value={locale}>
