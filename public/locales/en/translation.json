@@ -1,0 +1,21 @@
+{
+	"header": "Welcome to the app!",
+	"datesHeader": "Dates",
+	"timeDif": "From {{stime, short}} to {{etime, short}}",
+	"fullDate": "The date is {{ date, short }}",
+	"localisedDate": "We write a date as: {{ date, long }}",
+	"weekDay": "Today is a {{ date, EEEE }}.",
+	"postedOn": "The message was posted {{ date, relative }} (that is {{ date, ago }}).",
+	"numbersHeader": "Numbers",
+	"intlNumber": "Some {{val, num}}",
+	"intlNumber2": "Some {{val, num2}}",
+	"unitsHeader": "Units",
+	"distance": "Distance is {{distance, cm}}  $t(distanceUnits)",
+	"mass": "Mass is {{mass, kg}} $t(massUnits)",
+	"volume": "Volume is {{volume, L}} $t(volumeUnits)",
+	"distanceUnits": "in",
+	"massUnits": "lb",
+	"volumeUnits": "fl oz",
+	"currencyHeader": "Currency",
+	"currencyMain": "The value is {{usdValue, currency}} USD"
+}

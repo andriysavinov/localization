@@ -1,0 +1,21 @@
+{
+	"header": "Вітаю!",
+	"datesHeader": "Дати",
+	"timeDif": "Від {{stime, short}} до {{etime, short}}",
+	"fullDate": "Сьогоднішня дата {{ date, short }}",
+	"localisedDate": "Ми записуємо дату: {{ date, long }}",
+	"weekDay": "Сьогодні {{ date, EEEE }}.",
+	"postedOn": "Повідомлення було відправлено {{ date, relative }} (це {{ date, ago }}).",
+	"numbersHeader": "Числа",
+	"unitsHeader": "Одиниці вимірів",
+	"intlNumber": "Якісь числа {{val, num}}",
+	"intlNumber2": "Якісь ще числа {{val, num2}}",
+	"distance": "Відстань дорівнює {{distance, cm}} $t(distanceUnits)",
+	"mass": "Маса дорівнює {{mass, kg}} $t(massUnits)",
+	"volume": "Об'єм дорівнює {{volume, L}} $t(volumeUnits)",
+	"distanceUnits": "cm",
+	"massUnits": "kg",
+	"volumeUnits": "L",
+	"currencyHeader": "Валюта",
+	"currencyMain": "Ціна є {{uahValue, currency}} UAH"
+}
