@@ -49,18 +49,6 @@ i18n.use(Backend)
 						default:
 							formatDate(value, format, { locale });
 					}
-					// if (format === 'short')
-					// 	return formatDate(value, 'P', { locale });
-					// if (format === 'long')
-					// 	return formatDate(value, 'PPPP', { locale });
-					// if (format === 'relative')
-					// 	return formatRelative(value, new Date(), { locale });
-					// if (format === 'ago')
-					// 	return formatDistance(value, new Date(), {
-					// 		locale,
-					// 		addSuffix: true,
-					// 	});
-					// return formatDate(value, format, { locale });
 				} else {
 					if (locale?.code.startsWith('en')) {
 						switch (format) {
@@ -90,29 +78,6 @@ i18n.use(Backend)
 							default:
 								break;
 						}
-						// if (format === 'cm') {
-						// 	return new Intl.NumberFormat('fr', {
-						// 		maximumSignificantDigits: 4,
-						// 	}).format(convert(value, 'cm').to('in'));
-						// }
-						// if (format === 'kg') {
-						// 	return new Intl.NumberFormat('fr', {
-						// 		maximumSignificantDigits: 4,
-						// 	}).format(convert(value, 'kg').to('lb'));
-						// }
-						// if (format === 'L') {
-						// 	return new Intl.NumberFormat('fr', {
-						// 		maximumSignificantDigits: 4,
-						// 	}).format(convert(value, 'L').to('fl oz'));
-						// }
-						// if (format === 'num') {
-						// 	return new Intl.NumberFormat('en-US').format(value);
-						// }
-						// if (format === 'num2') {
-						// 	return new Intl.NumberFormat('en-US', {
-						// 		maximumSignificantDigits: 9,
-						// 	}).format(value);
-						// }
 					} else {
 						switch (format) {
 							case 'in':
@@ -135,23 +100,6 @@ i18n.use(Backend)
 							default:
 								break;
 						}
-						// if (format === 'in') {
-						// 	return convert(value, 'in').to('cm');
-						// }
-						// if (format === 'lb') {
-						// 	return convert(value, 'lb').to('kg');
-						// }
-						// if (format === 'fl oz') {
-						// 	return convert(value, 'fl oz').to('L');
-						// }
-						// if (format === 'num') {
-						// 	return new Intl.NumberFormat('fr').format(value);
-						// }
-						// if (format === 'num2') {
-						// 	return new Intl.NumberFormat('fr', {
-						// 		maximumSignificantDigits: 9,
-						// 	}).format(value);
-						// }
 					}
 				}
 
